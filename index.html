@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- boostrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"
+        defer></script>
+</head>
+
+<body>
+    <header #="top">
+        <!-- sticky navbar -->
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary bg-gradient border-bottom border-2">
+            <div class="container-lg">
+                <a class="navbar-brand" href="#">Navbar Scroll</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- blue section -->
+    <div class="container-fluid bg-primary text-light py-5 my-5">
+        <div class="container-lg">
+            <div class="row align-items-center">
+                <div class="col-md">
+                    <p class="text-uppercase fw-bold fs-6">get started</p>
+                    <h1 class="fw-bold lh-1 display-3">This really is a great product!</h1>
+                    <p class="text-uppercase fw-semibold fs-6">it really is such a great product - elon would be so
+                        proud of us.</p>
+                </div>
+
+                <div class="col-md">
+                    <img src="assets/img/1.png" class="img-fluid" alt="Stylised image of woman walking up stairs" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- white section 1 -->
+    <div class="container-lg py-5">
+
+        <!-- top text -->
+        <div class="row justify-content-md-center justify-content-sm-start text-md-center">
+            <div class="col-8">
+                <p class="text-primary text-uppercase fw-bold fs-6">get started</p>
+                <p class="fw-bold fs-3">It really is such a great product - Elon would be so proud of us.
+                    <span class="text-secondary">We're a great bunch of people.</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- cards -->
+        <div class="row my-5">
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="card bg-primary text-light">
+                    <img src="assets/img/card_1.png" class="card-img-top" alt="..." />
+
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-light">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="card">
+                    <img src="assets/img/card_2.png" class="card-img-top" alt="..." />
+
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 my-3">
+                <div class="card">
+                    <img src="assets/img/card_3.png" class="card-img-top" alt="..." />
+
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- line break -->
+        <hr class="border border-1 opactity-10" />
+
+        <!-- star buttons -->
+        <div class="row justify-content-center my-5">
+            <div class=" col-3 btn-group" role="group" aria-label="Star Rating">
+                <button type="button" class="btn btn-outline-warning border-0 fs-3"><i
+                        class="bi bi-star-fill"></i></button>
+                <button type="button" class="btn btn-outline-warning border-0 fs-3"><i
+                        class="bi bi-star-fill"></i></button>
+                <button type="button" class="btn btn-outline-warning border-0 fs-3"><i
+                        class="bi bi-star-fill"></i></button>
+                <button type="button" class="btn btn-outline-warning border-0 fs-3"><i
+                        class="bi bi-star-fill"></i></button>
+                <button type="button" class="btn btn-outline-warning border-0 fs-3"><i
+                        class="bi bi-star-fill"></i></button>
+            </div>
+        </div>
+
+
+        <div class="row text-center">
+            <div class="col-md-4 col-sm-6 my-3">
+                <p class="fw-semibold fs-4">Title</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatibus unde laudantium veritatis
+                    quos architecto cum ex. Labore, dolores architecto.</p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 my-3">
+                <p class="fw-semibold fs-4">Title</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatibus unde laudantium veritatis
+                    quos architecto cum ex. Labore, dolores architecto.</p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 my-3">
+                <p class="fw-semibold fs-4">Title</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui omnis modi voluptas culpa id. Maiores,
+                    alias provident? Dolor autem voluptatibus rem quasi, eius maiores repellat facilis, iste enim unde
+                    atque.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonial -->
+    <div class="container-fluid bg-dark">
+        <div class="container-lg">
+            <div class="row text-light justify-content-center text-center">
+                <div class="col-8 py-3">
+                    <p class="fw-semibold text-uppercase my-5">testimonial</p>
+
+                    <p class="fw-bold fs-2 my-5">"innovative solution. Simplicity and ease of comunication with
+                        customers and
+                        friends. I recommend it."</p>
+
+                    <img src="assets/img/headshot.jpg"
+                        class="img-fluid my-3 rounded-circle border border-4 border-white"
+                        alt="Avatar of person giving testimonial" />
+
+                    <p class="fw-semibold fs-6 text-uppercase my-5">anna moringo / <span class="text-secondary">project
+                            manager</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- white section 2 -->
+    <div class="container-lg py-5">
+        <div class="row">
+            <div class="col-8">
+                <i class="bi bi-boxes"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
